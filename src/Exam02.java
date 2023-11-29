@@ -87,9 +87,9 @@ public class Exam02 {
                                 sum1 += arr[i][j];
                                 System.out.printf("%4d \t", arr[i][j]);
                             }
-                            System.out.printf("\n");
+
                         }
-                        System.out.printf("\n");
+
                     }
                     System.out.printf("Tong duong cheo chinh = %d \n",sum1);
 
@@ -101,9 +101,7 @@ public class Exam02 {
                                 sum2 += arr[i][j];
                                 System.out.printf("%4d \t", arr[i][j]);
                             }
-                            System.out.printf("\n");
                         }
-                        System.out.printf("\n");
                     }
                     System.out.printf("Tong duong cheo phu = %d \n",sum2);
                     break;
@@ -118,9 +116,9 @@ public class Exam02 {
                             if (isPrime == true) {
                                 System.out.printf("%d\t", arr[i][j]);
                             }
-                            System.out.printf("\n");
+
                         }
-                        System.out.printf("\n");
+
                     }
                     break;
                 case 7:
